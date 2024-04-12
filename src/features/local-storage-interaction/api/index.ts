@@ -1,0 +1,1 @@
+export {setPosToLocalStorage, clearPosFromLocalStorage, getPosFromLocalStorage} from '../model/local-storage-interaction';

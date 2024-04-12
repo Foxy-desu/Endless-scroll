@@ -1,0 +1,1 @@
+export {PostsContainer} from '../model/posts-container';

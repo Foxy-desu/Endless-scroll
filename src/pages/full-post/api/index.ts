@@ -1,0 +1,1 @@
+export {FullPostPage} from '../ui/full-post-page';

@@ -1,4 +1,4 @@
 export {Button} from '../button/button';
-export {ContentBlock} from '../content-block/content-block';
-export {Heading} from '../heading/heading';
-export {IdBlock} from '../id-block/id-block';
+export {PostBody} from '../post-body/post-body';
+export {PostTitle} from '../post-title/post-title';
+export {PostId} from '../post-id/post-id';
