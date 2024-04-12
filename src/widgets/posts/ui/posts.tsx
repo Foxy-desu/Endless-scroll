@@ -22,7 +22,7 @@ export const Posts = ({posts, setFetchStartIndex, buttonHandler}: {posts: IPost[
             return (
                 <li className={styles.post_list___post_card} key={post.id} id={String(post.id)} ref={index === firstIndex? top : index === lastIndex? bottom : null}>
                     <Post post={post} bodyType='short'/>
-                    <Button btnText='See full post' postId={post.id} clickHandler={buttonHandler} />
+                    <Button btnText='Просмотр' postId={post.id} clickHandler={buttonHandler} />
                 </li>
             )
         })

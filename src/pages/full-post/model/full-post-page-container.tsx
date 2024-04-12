@@ -27,7 +27,7 @@ export const FullPostPageContainer = () => {
                 : post
                 ? (<FullPostPage>
                     <Post post={post}/>
-                    <Button clickHandler={navigate} btnText="Back to posts"/>
+                    <Button clickHandler={navigate} btnText="Назад"/>
                    </FullPostPage>
                    )
                 : (
