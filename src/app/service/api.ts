@@ -2,21 +2,21 @@ import {createApi, fetchBaseQuery} from "@reduxjs/toolkit/query/react";
 import { IPost } from "../../shared/types";
 
 export const postApi = createApi({
-    reducerPath:'post',
+    reducerPath:'postApi',
     baseQuery:fetchBaseQuery({baseUrl:'https://jsonplaceholder.typicode.com'}),
     endpoints:(builder)=>({
         fetchAllPosts: builder.query<IPost[],{limit:number,start:number}>({
-            query:({limit=5, start=0 })=>({
+            query:({limit=7, start=0 })=>({
                 url:'/posts',
                 params:
                  {
-                    _limit:limit,
-                    _start:start,
+                    _limit: limit,
+                    _start: start,
                 }
             })
         }),
-        fetchPostById: builder.query<IPost,number>({
-            query:(id:number=1)=>({
+        fetchPostById: builder.query<IPost, string>({
+            query: (id)=>({
                 url:`/posts/${id}`,
             })
         })
