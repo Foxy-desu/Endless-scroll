@@ -12,4 +12,8 @@ export const router = createBrowserRouter([
       path: '/posts/:id',
       element: <FullPostPageContainer/>,
     },
+    {
+      path: '*',
+      element: <MainPage/>,
+    }
   ]);
