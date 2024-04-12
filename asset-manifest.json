@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Endless-scroll/static/css/main.9becea46.css",
-    "main.js": "/Endless-scroll/static/js/main.173d3c4d.js",
-    "index.html": "/Endless-scroll/index.html",
-    "main.9becea46.css.map": "/Endless-scroll/static/css/main.9becea46.css.map",
-    "main.173d3c4d.js.map": "/Endless-scroll/static/js/main.173d3c4d.js.map"
+    "main.css": "/Foxy-desu/Endless-scroll/tree/gh-pages/static/css/main.9becea46.css",
+    "main.js": "/Foxy-desu/Endless-scroll/tree/gh-pages/static/js/main.173d3c4d.js",
+    "index.html": "/Foxy-desu/Endless-scroll/tree/gh-pages/index.html",
+    "main.9becea46.css.map": "/Foxy-desu/Endless-scroll/tree/gh-pages/static/css/main.9becea46.css.map",
+    "main.173d3c4d.js.map": "/Foxy-desu/Endless-scroll/tree/gh-pages/static/js/main.173d3c4d.js.map"
   },
   "entrypoints": [
     "static/css/main.9becea46.css",
