@@ -1,5 +1,7 @@
 # Endless scroll + virtualization
 
+Ссылка на [деплой](https://foxy-desu.github.io/Endless-scroll/)
+
 Проект выполнен в качестве тестового задания.
 
 ## Использованные технологии
