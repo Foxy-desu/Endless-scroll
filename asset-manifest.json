@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Endless-scroll/static/css/main.9becea46.css",
+    "main.js": "/Endless-scroll/static/js/main.173d3c4d.js",
+    "index.html": "/Endless-scroll/index.html",
+    "main.9becea46.css.map": "/Endless-scroll/static/css/main.9becea46.css.map",
+    "main.173d3c4d.js.map": "/Endless-scroll/static/js/main.173d3c4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9becea46.css",
+    "static/js/main.173d3c4d.js"
+  ]
+}
