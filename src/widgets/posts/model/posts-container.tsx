@@ -1,3 +1,4 @@
+import React from "react";
 import {useState} from "react";
 import { useFetchAllPostsQuery } from "../../../app/service/api";
 import { Posts } from "../ui/posts";
