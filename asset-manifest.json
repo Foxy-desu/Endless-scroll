@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Endless-scroll/static/css/main.9becea46.css",
-    "main.js": "/Endless-scroll/static/js/main.6dd4ca3c.js",
+    "main.js": "/Endless-scroll/static/js/main.0ce3e645.js",
     "index.html": "/Endless-scroll/index.html",
     "main.9becea46.css.map": "/Endless-scroll/static/css/main.9becea46.css.map",
-    "main.6dd4ca3c.js.map": "/Endless-scroll/static/js/main.6dd4ca3c.js.map"
+    "main.0ce3e645.js.map": "/Endless-scroll/static/js/main.0ce3e645.js.map"
   },
   "entrypoints": [
     "static/css/main.9becea46.css",
-    "static/js/main.6dd4ca3c.js"
+    "static/js/main.0ce3e645.js"
   ]
 }
