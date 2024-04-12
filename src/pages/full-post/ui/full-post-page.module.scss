@@ -1,4 +1,5 @@
 $GRAY_BLUE_COLOR: #41464e;
+$LIGHT_COLOR: #98abcf;
 
 .full_post {
     align-self: center;
@@ -11,4 +12,8 @@ $GRAY_BLUE_COLOR: #41464e;
     min-height: 200px;
     background-color: $GRAY_BLUE_COLOR;
     border-radius: 25px;
-}
+
+    @media (prefers-color-scheme: light) {
+        background-color: $LIGHT_COLOR;
+    }
+};
