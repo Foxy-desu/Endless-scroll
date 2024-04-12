@@ -1,46 +1,57 @@
-# Getting Started with Create React App
+# Endless scroll + virtualization
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект выполнен в качестве тестового задания.
 
-## Available Scripts
+## Использованные технологии
 
-In the project directory, you can run:
+- Redux Toolkit + RTK Query
+  
+- Typescript
+  
+- React
 
-### `npm start`
+- React Router Dom
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- JSON Placeholder
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Scss
 
-### `npm test`
+- Intersection Observer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Также была предпринята попытка использования FSD в качестве архитектуры приложения
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Принцип работы
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- На главной странице отображается список постов, стостоящий из:
+    - id
+    - заголовка
+    - тела поста в сокращенном виде
+    - кнопки, ведущей к просмотру текущего поста
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Посты подгружаются по мере прокрутки страницы таким образом, что на странице в конкретный момент времени будет существовать 7 элементов.
 
-### `npm run eject`
+- При прокрутке страницы вверх подгружаются более ранние посты, при прокрутке вниз - более поздние.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Совершаемые приложением запросы кэшируются.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Переход к конкретному посту совершается посредством клика по кнопке "See full post".
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- При переходе на страницу с постом, информация о текущей позиции страницы сохраняется.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- На странице поста отображается следующая информация:
+    - id
+    - заголовка
+    - тела поста в сокращенном виде
+    - кнопки, возвращающей на главную страницу
 
-## Learn More
+- При возвращении на главную траницу по клику "Back to posts", пользователь возвращается на ранее сохраненную позицию во вьюпорте
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+![image](https://github.com/Foxy-desu/Endless-scroll/assets/87661341/4ee41249-125a-477e-b2b0-4f43cd431c6d)
+![image](https://github.com/Foxy-desu/Endless-scroll/assets/87661341/65e6e35d-4bfe-4fe6-a351-3e7ddb4f313e)
+
+
+
+
