@@ -1,0 +1,23 @@
+$light-color: #d4d4d4;
+$dark-color: #1b1b1b;
+
+
+.post_body {
+    
+    margin-bottom: 2em;
+    line-height: 1.5em;
+
+    &::first-letter {
+        text-transform: capitalize;
+    }
+
+    @media (prefers-color-scheme: light) {
+        color: $dark-color;
+    }
+
+    &__elipsed {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

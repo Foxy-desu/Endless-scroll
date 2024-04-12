@@ -1,0 +1,15 @@
+$light-color: #d4d4d4;
+$dark-color: #1b1b1b;
+
+
+.post_title {
+    margin-bottom: 1em;
+
+    &::first-letter {
+        text-transform: capitalize;
+    }
+
+    @media (prefers-color-scheme: light) {
+        color: $dark-color;
+    }
+}

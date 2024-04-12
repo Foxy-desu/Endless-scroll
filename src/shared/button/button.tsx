@@ -1,13 +1,14 @@
-import {NavLink} from 'react-router-dom';
 import styles from './button.module.scss';
+import { ButtonType } from '../types';
 
-interface IButton {
-  toPath: string,
-  textContent: string,
-}
-
-export const Button = ({toPath, textContent}: IButton) => {
+export const Button: ButtonType = ({clickHandler, postId, btnText}) => {
   return (
-    <NavLink className={styles.button} to={toPath}>{textContent}</NavLink>
+      <button className={styles.button} type='button' onClick={()=> {
+        if (postId) {
+          clickHandler(postId);
+        } else {
+          clickHandler(-1);
+        }
+      }}>{btnText}</button>
   )
 };
