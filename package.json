@@ -1,7 +1,7 @@
 {
   "name": "posts-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/Foxy-desu/Endless-scroll/tree/gh-pages",
+  "homepage": "https://foxy-desu.github.io/Endless-scroll",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
